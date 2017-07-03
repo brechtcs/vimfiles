@@ -4,9 +4,6 @@
 [submodule "editorconfig-vim"]
 	path = editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
-[submodule "emmet-vim"]
-	path = emmet-vim
-	url = https://github.com/mattn/emmet-vim
 [submodule "goyo.vim"]
 	path = goyo.vim
 	url = https://github.com/junegunn/goyo.vim
