@@ -4,6 +4,7 @@ set noswapfile
 
 filetype plugin indent on
 syntax on
+color blazer
 set background=light
 set nowrap number
 set tabstop=4 shiftwidth=4 expandtab
@@ -11,10 +12,13 @@ set omnifunc=syntaxcomplete#Complete
 let g:neocomplete#enable_at_startup=1
 let g:sparkupExecuteMapping='<S-Tab>'
 
-cmap :gs Gstatus
-cmap :gd Gdiff
-cmap :gb Gblame
-cmap :gk Gitv
+nmap - :EditVifm<Return>
+cabbrev O TabVifm 
+cabbrev Gs Gstatus
+cabbrev Gd Gdiff
+cabbrev Gb Gblame
+cabbrev Gc Gcommit
+cabbrev Gp Gpush
 
 if executable('ag')
     set grepprg=ag\ --nogroup\ --nocolor

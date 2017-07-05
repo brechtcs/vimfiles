@@ -22,9 +22,6 @@
 [submodule "vim-surround"]
 	path = vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "vim-vinegar"]
-	path = vim-vinegar
-	url = https://github.com/tpope/vim-vinegar
 [submodule "vim-obsession"]
 	path = vim-obsession
 	url = https://github.com/tpope/vim-obsession
@@ -34,3 +31,6 @@
 [submodule "delimitMate"]
 	path = delimitMate
 	url = https://github.com/Raimondi/delimitMate
+[submodule "vifm.vim"]
+	path = vifm.vim
+	url = https://github.com/vifm/vifm.vim
