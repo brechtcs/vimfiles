@@ -1,6 +1,3 @@
-[submodule "vim-colorschemes"]
-	path = vim-colorschemes
-	url = https://github.com/flazz/vim-colorschemes
 [submodule "editorconfig-vim"]
 	path = editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim

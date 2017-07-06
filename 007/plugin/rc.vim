@@ -4,7 +4,7 @@ set noswapfile
 
 filetype plugin indent on
 syntax on
-color blazer
+color Rebellion
 set background=light
 set nowrap number
 set tabstop=4 shiftwidth=4 expandtab
