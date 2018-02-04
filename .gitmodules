@@ -31,3 +31,6 @@
 [submodule "vifm.vim"]
 	path = vifm.vim
 	url = https://github.com/vifm/vifm.vim
+[submodule "completor.vim"]
+	path = completor.vim
+	url = https://github.com/maralla/completor.vim
