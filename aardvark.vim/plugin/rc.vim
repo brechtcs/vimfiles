@@ -13,6 +13,9 @@ let g:neocomplete#enable_at_startup=1
 let g:sparkupExecuteMapping='<S-Tab>'
 
 nmap - :EditVifm<Return>
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
 cabbrev O TabVifm 
 cabbrev Gs Gstatus
 cabbrev Gd Gdiff
